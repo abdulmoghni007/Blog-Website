@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+
+@for (post of posts; track $index) {
+  <div class="container">
+    <div class="row">
+      <div class="container">
+        <blockquote class="quote-card">
+          <p>
+            {{ post[2] }}
+          </p>
+
+          <cite>
+          </cite>
+        </blockquote>
+
+
+      </div>
+    </div>
+  </div>
+}
